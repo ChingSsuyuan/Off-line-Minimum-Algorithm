@@ -1,4 +1,4 @@
-# Off-line-minimum-Algorithm
+# Off-line-Minimum-Algorithm
 Off-Line-Minimum(m, n) 
 
     for i = 1 to n determine j such that i is in K_j 
