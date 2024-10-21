@@ -20,5 +20,6 @@ void unionSets(disjoint_set* set1, disjoint_set* set2)
 void offLineMinimum(int m, int n, int operations[])
 
 int main()
+
 There is test.txt file, which contains n = 100 inserts and m = 50
 do extract-mins operations by 'E' get results
