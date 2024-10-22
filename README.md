@@ -1,5 +1,5 @@
 # Off-line-Minimum-Algorithm
-Off-Line-Minimum(m, n) 
+### Off-Line-Minimum(m, n) 
 
     for i = 1 to n determine j such that i is in K_j 
     
@@ -11,15 +11,15 @@ Off-Line-Minimum(m, n)
         
         K_l = union( K_j, K_l), destroying K_j return extracted
 
-The algorithm includes function:
+## The algorithm includes function:
 
-void insert(disjoint_set *set, int key)
+### void insert(disjoint_set *set, int key)
 
-void unionSets(disjoint_set* set1, disjoint_set* set2)
+### void unionSets(disjoint_set* set1, disjoint_set* set2)
 
-void offLineMinimum(int m, int n, int operations[])
+### void offLineMinimum(int m, int n, int operations[])
 
-int main()
+### int main()
 
 There is test.txt file, which contains n = 100 inserts and m = 50
 do extract-mins operations by 'E' get results
